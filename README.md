@@ -23,3 +23,12 @@ En Mac (mi caso) se arregla así:
 01101001 = 0×128+1×64+1×32+0×16+1×8+0×4+0×2+1×1 = 105 'i'
 00100001 = 0×128+0×64+1×32+0×16+0×8+0×4+0×2+1×1 = 33 '!'
 01000010= 0×128+1×64+0×32+0×16+0×8+0×4+1×2+0×1 = 66 'B'
+
+
+### Tabla comparativa ###
+
+                     Registros                      RAM	                             Disco
+Tamaño típico	    8 – 64 bytes                 	4 – 128 GB	                     256 GB – 20 TB
+Latencia	        ~0.3 ns	                        ~60 ns	                         100 µs – 10 ms
+Costo por GB	    Caro                             ~$3 – $8	                      ~$0.02 – $0.10
+Ejemplo de uso      Variable de loop en ejecución	Datos de un programa abierto	Sistema de archivos, base de datos
